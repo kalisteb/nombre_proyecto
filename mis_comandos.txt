@@ -1,0 +1,203 @@
+    1  cd
+    2  C:\Users\Karina Aliste\Dropbox\Karina Aliste\Estudios\Talento Digital\6 Git
+    3  cd ..
+    4  cd:
+    5  cd "git"
+    6  cd "Git"
+    7  dir
+    8  C:\Users\Karina Aliste\Dropbox\Karina Aliste\Estudios\Talento Digital\6 Git
+    9  C:\Users\Karina Aliste\Dropbox\Karina Aliste\Estudios\Talento Digital\6 Git
+   10  cd "6 Git"
+   11  C:\Users\Karina Aliste\Dropbox\Karina Aliste\Estudios\Talento Digital\Git
+   12  cd Git
+   13  pwd
+   14  C:\Users\Karina Aliste\Dropbox\Karina Aliste\Estudios\Talento Digital\Git
+   15  C:\Users\Karina Aliste\Dropbox\Karina Aliste\Estudios\Talento Digital\Proyectos
+   16  C:\Users\Karina Aliste\Dropbox\Proyectos
+   17  cd
+   18  cd cd ..  -> retrocede en un directorio desde la posición inicial
+   19  cd -> nombreDirectorio ingresa al directorio con el nombre indicado
+   20  dir -> listar los elementos de un directorio
+   21  cat -> muestra en pantalla el contenido de un fichero de texto
+   22  cd C:\Users\Karina Aliste\Dropbox\Proyectos
+   23  C:\Users\Karina Aliste\Dropbox\Proyectos
+   24  /bash: C:UsersKarina: command not found
+   25  /C:\Users\Karina Aliste\Dropbox\Proyectos
+   26  cd
+   27  cd C:\Users\Karina Aliste\Dropbox\Proyectos
+   28  cd C:cd Users\Karina Aliste\Dropbox\Proyectos
+   29  git config --global user.name "Karina Aliste"
+   30  git config --global user.email kalistebastias@gmail.com
+   31  git config --global --list
+   32  git config --global color.ui "auto"
+   33  man git
+   34  mk dir nuevo_proyecto
+   35  cd nuevo proyecto
+   36  C:\Users\Karina Aliste\Dropbox\Proyectos
+   37  C:\Users\Karina Aliste\Desktop
+   38  cd C:\Users\Karina Aliste\Desktop
+   39  git init
+   40  mkdir test
+   41  ls
+   42  C:\Users\Karina Aliste\Desktop
+   43  git remote add origin https://github.com/kalisteb/Origin.git
+   44  git branch -M main
+   45  git push -u origin main
+   46  C:\Users\Karina Aliste\Dropbox\Proyectos
+   47  cd
+   48  cat
+   49  mkdir test0
+   50  touch index.html
+   51  touch styless.css
+   52  mkdir Test0
+   53  cd Test0
+   54  touch index.html
+   55  touch styles.css
+   56  touch commands.txt
+   57  cp index.html index_2.html
+   58  cd
+   59  ls
+   60  cd Desktop
+   61  cd Test0
+   62  cd ..
+   63  mkdir destino
+   64  mv index_2.html ../destino
+   65  mv index_2.html ../C:\Users\Karina Aliste\Desktop\destino
+   66  cd destino
+   67  mv index_2.html ../destino
+   68  mv index_2.html ...destino
+   69  cd Test0
+   70  cd..
+   71  cd ..
+   72  cd Test0
+   73  mv index_2.html ../destino
+   74  rm style.css
+   75  rm styles.css
+   76  cd test0
+   77  ls
+   78  cd destino
+   79  cd ..
+   80  cd destino
+   81  ls
+   82  rm destino
+   83  cd ..
+   84  rm destino
+   85  rmdir destino
+   86  rm -rf destino
+   87  cd Test0
+   88  cat commands.txt
+   89  git config --global user.name "Karina Aliste"
+   90  git config --global user.email kalistebastias@gmail.com
+   91  git config --global --list
+   92  man git
+   93  man gittutorial
+   94  man git-add
+   95  man git-commit
+   96  man git-push
+   97  man git-remote
+   98  git hel git
+   99  git help git
+  100  man git
+  101  man(){ $1 --help; }
+  102  command_name --help
+  103  rpm -q man
+  104  cd Desktop
+  105  python
+  106  cat
+  107  ls
+  108  cd.
+  109  pwd
+  110  mkdir test
+  111  cd test
+  112  touch index.html
+  113  touch styles.css
+  114  touch commands.txt
+  115  cp index.html index_2.html
+  116  cd ..
+  117  mkdir destino
+  118  cd test
+  119  mv index_2.html ../destino
+  120  rm styles.css
+  121  ls
+  122  cd ..
+  123  cd destino
+  124  ls
+  125  cd ..
+  126  rm -rf destino
+  127  cd test
+  128  cat commands.txt
+  129  cat commands.txt
+  130  git
+  131  git config --global --list
+  132  man git
+  133  git hel git
+  134  git help git
+  135  man gittutorial
+  136  man git-add
+  137  man git-commit
+  138  man git-push
+  139  man git-remote
+  140  ls
+  141  pwd
+  142  cd ..
+  143  cd ..
+  144  cd karina aliste
+  145  cd /
+  146  cd c
+  147  cd usuarios
+  148  ls
+  149  ls -a
+  150  cd ..
+  151  ls -a
+  152  mkdir nuevo_proyecto
+  153  cd nuevo_proyecto
+  154  git init
+  155  touch index.html
+  156  git status
+  157  git status
+  158  git add index.html
+  159  touch index.html
+  160  git add index.html
+  161  git status
+  162  git commit -m "agregamos archivo html"
+  163  git log
+  164  cd C:\users\Karina Aliste\Desktop
+  165  mkdir test
+  166  cd test
+  167  touch index.html
+  168  touch styles.css
+  169  git init
+  170  git add index.html
+  171  git add .
+  172  git commit -m "archivo de inicio"
+  173  git add index.html
+  174  git commit -m "actualización de html"
+  175  git add styles.css
+  176  git commit -m "actualización de css"
+  177  git log
+  178  git revert -na356287
+  179  git revert -n HEAD
+  180  git revert -n a356c87
+  181  git add styles.css
+  182  git commit -m "segunda actualización de css"
+  183  cd github
+  184  ls
+  185  cd GitHub - Acceso directo.lnk
+  186  cd C:\Users\Karina Aliste\Documents\GitHub\Full_Stack_Python>
+  187  cd c
+  188  pip list
+  189  cd ..
+  190  python -m venv djangoPy3Env
+  191  call djangoPy3Env\Scripts\activate
+  192  source djangoPy3Env\Scripts\activate
+  193  ls -la
+  194  pip list
+  195  pip install django==2.2.4
+  196  python -m pip install -U pip
+  197  cd proyecto_blog/
+  198  pip install Django==2.2.4
+  199  source djangoPy3Env\Scripts\activate
+  200  pe
+  201  pwd
+  202  history
+  203  history > mis_comandos.txt
