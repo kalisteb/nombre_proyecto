@@ -10,6 +10,6 @@ urlpatterns = [
     path('inicio', views.inicio),
     path('agregar', views.agregar),
     path('leer', views.leer),
-    path('actualizar', views.actualizar),
-    path('eliminar', views.eliminar),
+    #path('actualizar', views.actualizar),
+    #path('eliminar', views.eliminar),
 ]

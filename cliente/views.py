@@ -27,7 +27,7 @@ def leer(request):
     return render(request, "index.html")
 
 #render revisar
-def actualizar(request):
+#def actualizar(request):
     id=request.POST['id']
     cliente=Cliente.objects.get(id=id)
     
@@ -41,3 +41,4 @@ def actualizar(request):
         cliente.email = request.POST['email']
         cliente.password = request.POST['password']
         cliente.direccion = request.POST['direccion']
+    return render(request, 'index.html')  
